@@ -6,17 +6,17 @@
 
 const form = document.querySelector("form")
 
+function validation(element) {
+  
+}
 
 form.addEventListener("submit", (e)=>{
   e.preventDefault();
-  console.log("funcionando")
   const name = form.querySelector("#name")
+
   console.log(name.value)
   if(name.value.trim() === ""){
-    const p = document.createElement("p")
-    p.textContent = "Nome vazio"
-    const divDad = name.parentElement
-    divDad.append(p)
+    
   }
 })
 

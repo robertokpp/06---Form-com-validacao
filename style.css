@@ -46,9 +46,9 @@ form {
     background-color: rgb(60, 60, 209);
   }
 
-  p{
-    color: red;
+  .alert{
+    color: rgb(241, 59, 59);
     margin-block: 4px;
-    font-weight: 600;
+    font-size: small;
   }
 }
